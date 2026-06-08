@@ -88,14 +88,14 @@
               <div class="story-step-icon bg-info text-white">4</div>
               <div>
                 <h5 class="fw-bold">We Iterated with More Prompts</h5>
-                <p class="text-muted mb-0">"Make it simpler." "Add dark mode." "Add a password generator." "The moon button isn't working." Each time, Q diagnosed, fixed, or added exactly what was needed — instantly.</p>
+                <p class="text-muted mb-0">"Simplify the layout." "Add dark mode." "Add a password generator." "The theme toggle is not working." Each time, Q diagnosed, fixed, or added exactly what was needed — instantly.</p>
               </div>
             </div>
             <div class="d-flex gap-3 align-items-start">
               <div class="story-step-icon bg-danger text-white">5</div>
               <div>
                 <h5 class="fw-bold">Q Even Handled Git & GitHub</h5>
-                <p class="text-muted mb-0">We asked Q to push our code to GitHub. It found Git on our system, fixed the PATH issues, set environment variables, committed our code, and pushed to our remote repo — all from the chat panel.</p>
+                <p class="text-muted mb-0">We asked Q to push our code to GitHub. It located Git on our system, resolved PATH configuration issues, committed the codebase, and pushed to our remote repository — all from the IDE chat panel.</p>
               </div>
             </div>
           </div>
@@ -207,8 +207,8 @@
     <div class="container">
       <div class="section-header text-center mb-5">
         <span class="section-tag">Prompts Log</span>
-        <h2 class="display-5 fw-bold mt-2">Every Prompt We Used</h2>
-        <p class="text-muted lead">These are the exact messages typed to Amazon Q — nothing more, nothing less.</p>
+        <h2 class="display-5 fw-bold mt-2">Prompts Used with Amazon Q</h2>
+        <p class="text-muted lead">Each prompt represents a clear instruction given to Amazon Q — along with what it delivered in response.</p>
       </div>
       <div class="row justify-content-center">
         <div class="col-lg-9">
@@ -217,82 +217,82 @@
             <div class="prompt-entry">
               <div class="d-flex align-items-center gap-2 mb-2">
                 <span class="badge bg-primary">Prompt 1</span>
-                <span class="badge bg-secondary">Setup</span>
+                <span class="badge bg-secondary">Version Control Setup</span>
               </div>
-              <div class="user-prompt">"we have installed git try to push our code to git"</div>
-              <div class="q-response">Q found Git at <code>C:\Program Files\Git\bin</code>, added it to PATH via <code>setx</code>, provided all git commands to initialize repo and push to GitHub.</div>
+              <div class="user-prompt">"Git is installed on this machine. Please initialize a local repository, connect it to our remote GitHub repository, and push the existing codebase to the main branch."</div>
+              <div class="q-response"><strong>Amazon Q:</strong> Located the Git installation at <code>C:\Program Files\Git\bin</code>, added it to the system PATH using <code>setx</code>, initialized the local repo, configured the remote origin, and executed the initial commit and push to GitHub.</div>
             </div>
 
             <div class="prompt-entry">
               <div class="d-flex align-items-center gap-2 mb-2">
                 <span class="badge bg-success">Prompt 2</span>
-                <span class="badge bg-secondary">Build</span>
+                <span class="badge bg-secondary">Initial Website Build</span>
               </div>
-              <div class="user-prompt">"yes, think of something based on our current code and create, i need to give demo on it and create a fully functional website"</div>
-              <div class="q-response">Q read all 3 existing files, designed an AI Tools landing page concept and generated the complete <code>index.html</code>, <code>styles.css</code>, and <code>app.js</code> with Hero, Features, Text Analyzer, Color Palette Generator, Pricing, Testimonials, Contact Form, and Footer.</div>
+              <div class="user-prompt">"Based on this Bootstrap + Vanilla JS starter project, design and build a fully functional website suitable for a live demo. The site should reflect modern AI-powered web development capabilities."</div>
+              <div class="q-response"><strong>Amazon Q:</strong> Analyzed all existing files, proposed an AI Tools landing page concept, and generated a complete multi-section website — Hero, Features, Text Analyzer, Color Palette Generator, Pricing, Testimonials, Contact Form, and Footer — across all 3 project files.</div>
             </div>
 
             <div class="prompt-entry">
               <div class="d-flex align-items-center gap-2 mb-2">
                 <span class="badge bg-warning text-dark">Prompt 3</span>
-                <span class="badge bg-secondary">Refine</span>
+                <span class="badge bg-secondary">Design Simplification</span>
               </div>
-              <div class="user-prompt">"can you make the bit simple website its lot of stuff with this one, make it small but fully functional"</div>
-              <div class="q-response">Q stripped the site down to essentials — kept Text Analyzer, Color Palette, Contact Form, Features section, and removed Pricing, Component Generator, and excess sections. Rewrote all 3 files with cleaner, minimal code.</div>
+              <div class="user-prompt">"The current implementation is too feature-heavy for a concise demo. Please simplify the layout — retain only the core interactive tools, remove non-essential sections, and ensure the page remains clean and fully functional."</div>
+              <div class="q-response"><strong>Amazon Q:</strong> Refactored all 3 files — removed the Pricing section, Component Generator, and excess UI. Retained the Text Analyzer, Color Palette Generator, Features cards, Contact Form, and Footer with a streamlined, minimal layout.</div>
             </div>
 
             <div class="prompt-entry">
               <div class="d-flex align-items-center gap-2 mb-2">
                 <span class="badge bg-info">Prompt 4</span>
-                <span class="badge bg-secondary">Enhance</span>
+                <span class="badge bg-secondary">Feature Enhancement</span>
               </div>
-              <div class="user-prompt">"add some more meaningful features and a bit of a css & bootstrap to make it more user friendly and visually stunning"</div>
-              <div class="q-response">Q added: Dark/Light Mode toggle, Password Generator with strength meter, Text Converter (UPPER/lower/Title/Reverse), FAQ Accordion, Testimonials section, animated hero stat counters, scroll fade-in animations, scroll-to-top button, and sticky navbar.</div>
+              <div class="user-prompt">"Please enhance the website by adding more meaningful interactive features, improving the visual design using Bootstrap components and custom CSS, and making the overall experience more polished and user-friendly."</div>
+              <div class="q-response"><strong>Amazon Q:</strong> Added Dark/Light Mode toggle, Password Generator with real-time strength meter, Text Converter with 4 transformation modes, FAQ Accordion, Testimonials section, animated stat counters, scroll-triggered fade-in animations, sticky navbar with scroll effect, and a scroll-to-top button.</div>
             </div>
 
             <div class="prompt-entry">
               <div class="d-flex align-items-center gap-2 mb-2">
                 <span class="badge bg-danger">Prompt 5</span>
-                <span class="badge bg-secondary">Debug</span>
+                <span class="badge bg-secondary">Bug Fix — Dark Mode Toggle</span>
               </div>
-              <div class="user-prompt">"nothing happening when clicked on moon button"</div>
-              <div class="q-response">Q diagnosed the issue — dark mode was only setting the custom <code>data-theme</code> attribute but not Bootstrap's required <code>data-bs-theme</code> attribute. Fixed by adding <code>html.setAttribute("data-bs-theme", ...)</code> to the toggle handler.</div>
+              <div class="user-prompt">"The dark mode toggle button is not producing any visible effect when clicked. Please investigate the issue and implement the correct fix."</div>
+              <div class="q-response"><strong>Amazon Q:</strong> Identified the root cause — Bootstrap 5.3 requires the <code>data-bs-theme</code> attribute on the <code>&lt;html&gt;</code> element to activate dark mode, but only the custom <code>data-theme</code> attribute was being set. Applied a targeted fix to update both attributes simultaneously on toggle.</div>
             </div>
 
             <div class="prompt-entry">
               <div class="d-flex align-items-center gap-2 mb-2">
                 <span class="badge bg-dark">Prompt 6</span>
-                <span class="badge bg-secondary">Debug</span>
+                <span class="badge bg-secondary">UI Fix — Navbar Contrast</span>
               </div>
-              <div class="user-prompt">"the menubar background is dark and in dark mode the menubar is not visible properly"</div>
-              <div class="q-response">Q added explicit CSS rules forcing navbar text and links to white, and set a deeper dark background in dark mode so everything remained clearly visible in both modes.</div>
+              <div class="user-prompt">"The navigation bar has a readability issue in dark mode — the link text and brand name are not sufficiently visible against the dark background. Please fix the contrast to ensure full legibility in both light and dark themes."</div>
+              <div class="q-response"><strong>Amazon Q:</strong> Added explicit CSS overrides to enforce white text on all navbar elements. Applied a deeper dark background value (<code>#020817</code>) in dark mode to meet contrast requirements and maintain consistent visibility across both themes.</div>
             </div>
 
             <div class="prompt-entry">
               <div class="d-flex align-items-center gap-2 mb-2">
                 <span class="badge bg-primary">Prompt 7</span>
-                <span class="badge bg-secondary">DevOps</span>
+                <span class="badge bg-secondary">Environment Configuration — Git PATH</span>
               </div>
-              <div class="user-prompt">"can you setup environment variable so that we can access git"</div>
-              <div class="q-response">Q ran <code>setx PATH "%PATH%;C:\Program Files\Git\bin"</code> to permanently add Git to the system PATH.</div>
+              <div class="user-prompt">"Git is installed on the system but is not accessible from the terminal. Please configure the system environment variable to register Git in the PATH so it can be invoked globally."</div>
+              <div class="q-response"><strong>Amazon Q:</strong> Executed <code>setx PATH "%PATH%;C:\Program Files\Git\bin"</code> to permanently add Git to the Windows system PATH, and verified that the installation was accessible in new terminal sessions.</div>
             </div>
 
             <div class="prompt-entry">
               <div class="d-flex align-items-center gap-2 mb-2">
                 <span class="badge bg-success">Prompt 8</span>
-                <span class="badge bg-secondary">DevOps</span>
+                <span class="badge bg-secondary">Environment Configuration — Node.js</span>
               </div>
-              <div class="user-prompt">"Node js installed can you check" / "can you check now"</div>
-              <div class="q-response">Q located Node.js at <code>C:\Program Files\nodejs</code>, added it to PATH, verified <code>node v24.16.0</code> and <code>npm 11.13.0</code> were accessible, then ran <code>npm install && npm start</code>.</div>
+              <div class="user-prompt">"Node.js has been installed on this machine. Please verify the installation, ensure npm is accessible from the terminal, install the project dependencies, and start the development server."</div>
+              <div class="q-response"><strong>Amazon Q:</strong> Located Node.js at <code>C:\Program Files\nodejs</code>, added it to the system PATH, confirmed <code>node v24.16.0</code> and <code>npm 11.13.0</code>, ran <code>npm install</code> to restore all dependencies, and launched the dev server via <code>npm start</code>.</div>
             </div>
 
             <div class="prompt-entry">
               <div class="d-flex align-items-center gap-2 mb-2">
                 <span class="badge bg-warning text-dark">Prompt 9</span>
-                <span class="badge bg-secondary">Demo</span>
+                <span class="badge bg-secondary">Demo Presentation Page</span>
               </div>
-              <div class="user-prompt">"I want to create a demo for this... all should be there"</div>
-              <div class="q-response">Q created this entire <code>demo.html</code> page — the one you're reading right now — with story, tech stack, prompts log, build process, features, code snippets, and CTA.</div>
+              <div class="user-prompt">"Create a professional demo presentation page for this project that documents the complete build journey — including all prompts used, the tech stack, step-by-step build process, feature breakdown, project file structure, and AI-generated code samples."</div>
+              <div class="q-response"><strong>Amazon Q:</strong> Designed and built this complete <code>demo.html</code> presentation — covering the full project story, all prompts with context, tech stack with 9 technology cards, 8-step build timeline, feature breakdown with 9 cards, project file structure, 4 real code samples, and key takeaways.</div>
             </div>
 
           </div>
@@ -338,7 +338,7 @@
                 </div>
                 <h5 class="fw-bold">Full Landing Page v1</h5>
                 <p class="text-muted mb-2">Q generated a complete site with 7 sections: Hero, Features, Text Analyzer, Color Palette Generator, Pricing, Testimonials, Contact Form.</p>
-                <div class="prompt-box"><i class="bi bi-chat-dots-fill text-primary me-2"></i>"think of something based on our current code and create a fully functional website"</div>
+                <div class="prompt-box"><i class="bi bi-chat-dots-fill text-primary me-2"></i>"Design and build a fully functional website suitable for a live demo based on this project."</div>
               </div>
             </div>
 
@@ -350,8 +350,8 @@
                   <small class="text-muted">Simplification</small>
                 </div>
                 <h5 class="fw-bold">Simplified to Clean v2</h5>
-                <p class="text-muted mb-2">Too complex for a demo. Q stripped it down — removed Pricing, kept the 2 most interactive tools, cleaner layout.</p>
-                <div class="prompt-box"><i class="bi bi-chat-dots-fill text-primary me-2"></i>"make the bit simple website, small but fully functional"</div>
+                <p class="text-muted mb-2">Removed Pricing and excess sections. Retained the 2 most interactive tools with a cleaner, focused layout.</p>
+                <div class="prompt-box"><i class="bi bi-chat-dots-fill text-primary me-2"></i>"Simplify the layout — retain only the core interactive tools and ensure it remains clean and fully functional."</div>
               </div>
             </div>
 
@@ -363,8 +363,8 @@
                   <small class="text-muted">Major Enhancement</small>
                 </div>
                 <h5 class="fw-bold">Feature-Rich v3</h5>
-                <p class="text-muted mb-2">Q added 5 new features in one shot: Password Generator, Text Converter, Dark Mode, FAQ Accordion, Testimonials + polished all the CSS.</p>
-                <div class="prompt-box"><i class="bi bi-chat-dots-fill text-primary me-2"></i>"add more meaningful features and better CSS & Bootstrap"</div>
+                <p class="text-muted mb-2">Added 5 new features in one shot: Password Generator, Text Converter, Dark Mode, FAQ Accordion, Testimonials — plus polished CSS throughout.</p>
+                <div class="prompt-box"><i class="bi bi-chat-dots-fill text-primary me-2"></i>"Add meaningful interactive features, improve the visual design, and make the experience more polished and user-friendly."</div>
               </div>
             </div>
 
@@ -376,8 +376,8 @@
                   <small class="text-muted">Bug Fix</small>
                 </div>
                 <h5 class="fw-bold">Dark Mode Fix</h5>
-                <p class="text-muted mb-2">Moon button did nothing. Root cause: Bootstrap 5.3 needs <code>data-bs-theme</code> on the HTML element — not a custom attribute. Q fixed it in 1 line.</p>
-                <div class="prompt-box"><i class="bi bi-chat-dots-fill text-primary me-2"></i>"nothing happening when clicked on moon button"</div>
+                <p class="text-muted mb-2">Root cause: Bootstrap 5.3 requires <code>data-bs-theme</code> on the HTML element. Q identified the issue and fixed it with a targeted one-line change.</p>
+                <div class="prompt-box"><i class="bi bi-chat-dots-fill text-primary me-2"></i>"The dark mode toggle is not producing any visible effect. Please investigate and fix the issue."</div>
               </div>
             </div>
 
@@ -388,9 +388,9 @@
                   <span class="badge bg-secondary">Step 6</span>
                   <small class="text-muted">UI Fix</small>
                 </div>
-                <h5 class="fw-bold">Navbar Visibility Fix</h5>
-                <p class="text-muted mb-2">Navbar links were invisible in dark mode. Q forced white text and a deeper dark background for both modes.</p>
-                <div class="prompt-box"><i class="bi bi-chat-dots-fill text-primary me-2"></i>"the menubar background is dark and in dark mode the menubar is not visible properly"</div>
+                <h5 class="fw-bold">Navbar Contrast Fix</h5>
+                <p class="text-muted mb-2">Navbar links were not readable in dark mode. Q enforced white text and applied a deeper dark background for consistent visibility across both themes.</p>
+                <div class="prompt-box"><i class="bi bi-chat-dots-fill text-primary me-2"></i>"The navbar has a contrast issue in dark mode — links are not readable. Please fix the visibility."</div>
               </div>
             </div>
 
@@ -402,8 +402,8 @@
                   <small class="text-muted">DevOps</small>
                 </div>
                 <h5 class="fw-bold">Git + GitHub + Node.js Setup</h5>
-                <p class="text-muted mb-2">Q located Git & Node.js on the system, fixed PATH issues, ran <code>npm install</code>, committed all changes, and pushed to GitHub — completely from the IDE chat.</p>
-                <div class="prompt-box"><i class="bi bi-chat-dots-fill text-primary me-2"></i>"we have installed git try to push our code to git"</div>
+                <p class="text-muted mb-2">Q located Git and Node.js, resolved all PATH configuration issues, ran <code>npm install</code>, committed all changes, and pushed to GitHub — entirely from the IDE chat.</p>
+                <div class="prompt-box"><i class="bi bi-chat-dots-fill text-primary me-2"></i>"Git and Node.js are installed. Please configure the environment, install dependencies, and push the code to GitHub."</div>
               </div>
             </div>
 
@@ -415,8 +415,8 @@
                   <small class="text-muted">This Page</small>
                 </div>
                 <h5 class="fw-bold">Demo Presentation Page</h5>
-                <p class="text-muted mb-2">You're looking at it. Q built this entire presentation page — story, tech stack, prompts, timeline, features, code snippets.</p>
-                <div class="prompt-box"><i class="bi bi-chat-dots-fill text-primary me-2"></i>"I want to create a demo for this... everything should be there"</div>
+                <p class="text-muted mb-2">Q built this entire presentation page documenting the full project — story, prompts, tech stack, timeline, features, file structure, and code samples.</p>
+                <div class="prompt-box"><i class="bi bi-chat-dots-fill text-primary me-2"></i>"Create a professional demo presentation page documenting the complete build journey of this project."</div>
               </div>
             </div>
 
@@ -432,20 +432,20 @@
       <div class="section-header text-center mb-5">
         <span class="section-tag">What We Built</span>
         <h2 class="display-5 fw-bold mt-2">All Website Features</h2>
-        <p class="text-muted lead">Every feature was described in English — Q built it.</p>
+        <p class="text-muted lead">Every feature was described in plain English — Amazon Q implemented it.</p>
       </div>
       <div class="row g-4">
         <div class="col-md-6 col-lg-4">
           <div class="feature-pill h-100 p-4">
             <div class="d-flex align-items-center gap-3 mb-3">
               <i class="bi bi-chat-left-text fs-2 text-primary"></i>
-              <div><h6 class="fw-bold mb-0">Text Analyzer</h6><small class="text-muted">Demo Tool</small></div>
+              <div><h6 class="fw-bold mb-0">Text Analyzer</h6><small class="text-muted">Interactive Tool</small></div>
             </div>
             <p class="text-muted small mb-2">Analyzes any text for sentiment (Positive/Negative/Neutral), word count, character count, sentence count, Flesch readability score, and top keywords.</p>
             <div class="d-flex flex-wrap gap-1">
-              <span class="badge bg-light text-dark border">Sentiment</span>
-              <span class="badge bg-light text-dark border">Keywords</span>
-              <span class="badge bg-light text-dark border">Readability</span>
+              <span class="badge bg-light text-dark border">Sentiment Analysis</span>
+              <span class="badge bg-light text-dark border">Keyword Extraction</span>
+              <span class="badge bg-light text-dark border">Readability Score</span>
             </div>
           </div>
         </div>
@@ -453,13 +453,13 @@
           <div class="feature-pill h-100 p-4">
             <div class="d-flex align-items-center gap-3 mb-3">
               <i class="bi bi-palette fs-2 text-success"></i>
-              <div><h6 class="fw-bold mb-0">Color Palette Generator</h6><small class="text-muted">Demo Tool</small></div>
+              <div><h6 class="fw-bold mb-0">Color Palette Generator</h6><small class="text-muted">Interactive Tool</small></div>
             </div>
-            <p class="text-muted small mb-2">Type a mood keyword and get a 5-color AI palette. Supports: ocean, forest, sunset, purple, minimal, fire, rose, night. Click swatches to copy hex codes.</p>
+            <p class="text-muted small mb-2">Enter a mood keyword to generate a 5-color palette. Supports 8 themes: ocean, forest, sunset, purple, minimal, fire, rose, night. Click any swatch to copy the hex code.</p>
             <div class="d-flex flex-wrap gap-1">
               <span class="badge bg-light text-dark border">8 Themes</span>
-              <span class="badge bg-light text-dark border">Copy Hex</span>
-              <span class="badge bg-light text-dark border">Random</span>
+              <span class="badge bg-light text-dark border">Copy Hex Code</span>
+              <span class="badge bg-light text-dark border">Keyword-Driven</span>
             </div>
           </div>
         </div>
@@ -467,13 +467,13 @@
           <div class="feature-pill h-100 p-4">
             <div class="d-flex align-items-center gap-3 mb-3">
               <i class="bi bi-shield-lock fs-2 text-danger"></i>
-              <div><h6 class="fw-bold mb-0">Password Generator</h6><small class="text-muted">Demo Tool</small></div>
+              <div><h6 class="fw-bold mb-0">Password Generator</h6><small class="text-muted">Interactive Tool</small></div>
             </div>
-            <p class="text-muted small mb-2">Generate strong passwords with custom length (8–32), uppercase, numbers, symbols. Real-time strength meter with 5 levels: Very Weak → Very Strong.</p>
+            <p class="text-muted small mb-2">Generates strong passwords with configurable length (8–32 characters), uppercase, numbers, and symbols. Includes a real-time strength meter with 5 levels from Very Weak to Very Strong.</p>
             <div class="d-flex flex-wrap gap-1">
               <span class="badge bg-light text-dark border">Length Slider</span>
               <span class="badge bg-light text-dark border">Strength Meter</span>
-              <span class="badge bg-light text-dark border">Copy</span>
+              <span class="badge bg-light text-dark border">One-Click Copy</span>
             </div>
           </div>
         </div>
@@ -481,13 +481,13 @@
           <div class="feature-pill h-100 p-4">
             <div class="d-flex align-items-center gap-3 mb-3">
               <i class="bi bi-type fs-2 text-warning"></i>
-              <div><h6 class="fw-bold mb-0">Text Converter</h6><small class="text-muted">Demo Tool</small></div>
+              <div><h6 class="fw-bold mb-0">Text Converter</h6><small class="text-muted">Interactive Tool</small></div>
             </div>
-            <p class="text-muted small mb-2">Transform text instantly: UPPERCASE, lowercase, Title Case, Reverse. Live stats update for word count, character count, and line count as you type.</p>
+            <p class="text-muted small mb-2">Transforms text instantly across four modes: UPPERCASE, lowercase, Title Case, and Reverse. Live statistics update in real time for word count, character count, and line count.</p>
             <div class="d-flex flex-wrap gap-1">
-              <span class="badge bg-light text-dark border">4 Transforms</span>
-              <span class="badge bg-light text-dark border">Live Stats</span>
-              <span class="badge bg-light text-dark border">Copy</span>
+              <span class="badge bg-light text-dark border">4 Transform Modes</span>
+              <span class="badge bg-light text-dark border">Live Statistics</span>
+              <span class="badge bg-light text-dark border">Copy Output</span>
             </div>
           </div>
         </div>
@@ -497,10 +497,10 @@
               <i class="bi bi-moon-fill fs-2 text-info"></i>
               <div><h6 class="fw-bold mb-0">Dark / Light Mode</h6><small class="text-muted">UI Feature</small></div>
             </div>
-            <p class="text-muted small mb-2">Toggle between dark and light themes with a single click. Uses Bootstrap 5.3's built-in <code>data-bs-theme</code> plus CSS custom properties for a complete theme switch.</p>
+            <p class="text-muted small mb-2">Full theme switching via a single toggle. Leverages Bootstrap 5.3's native <code>data-bs-theme</code> attribute alongside CSS custom properties for a complete, consistent theme transition.</p>
             <div class="d-flex flex-wrap gap-1">
-              <span class="badge bg-light text-dark border">data-bs-theme</span>
-              <span class="badge bg-light text-dark border">CSS Variables</span>
+              <span class="badge bg-light text-dark border">Bootstrap data-bs-theme</span>
+              <span class="badge bg-light text-dark border">CSS Custom Properties</span>
             </div>
           </div>
         </div>
@@ -510,10 +510,11 @@
               <i class="bi bi-envelope fs-2 text-primary"></i>
               <div><h6 class="fw-bold mb-0">Contact Form</h6><small class="text-muted">UI Feature</small></div>
             </div>
-            <p class="text-muted small mb-2">Full form with Name, Email, Subject dropdown, Message. Native HTML5 validation shows red errors on empty submit. Green success banner on valid submit.</p>
+            <p class="text-muted small mb-2">Fully validated contact form with Name, Email, Subject dropdown, and Message fields. Displays inline error messages on invalid submission and a success confirmation on valid submission.</p>
             <div class="d-flex flex-wrap gap-1">
-              <span class="badge bg-light text-dark border">Validation</span>
-              <span class="badge bg-light text-dark border">Success State</span>
+              <span class="badge bg-light text-dark border">HTML5 Validation</span>
+              <span class="badge bg-light text-dark border">Error States</span>
+              <span class="badge bg-light text-dark border">Success Feedback</span>
             </div>
           </div>
         </div>
@@ -523,10 +524,11 @@
               <i class="bi bi-question-circle fs-2 text-success"></i>
               <div><h6 class="fw-bold mb-0">FAQ Accordion</h6><small class="text-muted">UI Feature</small></div>
             </div>
-            <p class="text-muted small mb-2">4 questions with smooth expand/collapse. Only one open at a time. Built with Bootstrap's accordion component — no custom JS needed.</p>
+            <p class="text-muted small mb-2">Four common questions with smooth expand and collapse behavior. Only one item is open at a time. Built entirely with Bootstrap's accordion component — no custom JavaScript required.</p>
             <div class="d-flex flex-wrap gap-1">
               <span class="badge bg-light text-dark border">Bootstrap Accordion</span>
               <span class="badge bg-light text-dark border">Smooth Collapse</span>
+              <span class="badge bg-light text-dark border">Zero Custom JS</span>
             </div>
           </div>
         </div>
@@ -536,10 +538,11 @@
               <i class="bi bi-stars fs-2 text-warning"></i>
               <div><h6 class="fw-bold mb-0">Scroll Animations</h6><small class="text-muted">UI Feature</small></div>
             </div>
-            <p class="text-muted small mb-2">Cards fade up as they scroll into view using <code>IntersectionObserver</code>. Hero stats count up from 0. Sticky navbar shrinks on scroll. Scroll-to-top button appears.</p>
+            <p class="text-muted small mb-2">Cards animate into view as they enter the viewport using the <code>IntersectionObserver</code> API. Hero statistics count up from zero on load. Navbar compresses on scroll and a scroll-to-top button appears below the fold.</p>
             <div class="d-flex flex-wrap gap-1">
               <span class="badge bg-light text-dark border">IntersectionObserver</span>
-              <span class="badge bg-light text-dark border">Counter</span>
+              <span class="badge bg-light text-dark border">Animated Counters</span>
+              <span class="badge bg-light text-dark border">Scroll-to-Top</span>
             </div>
           </div>
         </div>
@@ -549,10 +552,11 @@
               <i class="bi bi-phone fs-2 text-info"></i>
               <div><h6 class="fw-bold mb-0">Fully Responsive</h6><small class="text-muted">UI Feature</small></div>
             </div>
-            <p class="text-muted small mb-2">Works on mobile, tablet, and desktop. Bootstrap's grid system handles all breakpoints. Navbar collapses to hamburger menu on small screens.</p>
+            <p class="text-muted small mb-2">Designed mobile-first and tested across mobile, tablet, and desktop viewports. Bootstrap's grid system handles all responsive breakpoints. The navbar collapses to a hamburger menu on smaller screens.</p>
             <div class="d-flex flex-wrap gap-1">
               <span class="badge bg-light text-dark border">Bootstrap Grid</span>
               <span class="badge bg-light text-dark border">Mobile First</span>
+              <span class="badge bg-light text-dark border">All Breakpoints</span>
             </div>
           </div>
         </div>
@@ -566,7 +570,7 @@
       <div class="section-header text-center mb-5">
         <span class="section-tag">Project Files</span>
         <h2 class="display-5 fw-bold mt-2">File Structure</h2>
-        <p class="text-muted lead">Simple and clean — just 5 files.</p>
+        <p class="text-muted lead">Simple and clean — just 5 core files.</p>
       </div>
       <div class="row justify-content-center">
         <div class="col-lg-7">
@@ -736,43 +740,43 @@ document.querySelectorAll(
         <div class="col-md-4">
           <div class="highlight-card p-4 text-center h-100">
             <i class="bi bi-lightning-charge-fill fs-1 text-warning mb-3 d-block"></i>
-            <h5 class="fw-bold">10x Faster</h5>
-            <p class="text-muted mb-0">What would take 2–3 days of coding was done in a few hours using plain English descriptions.</p>
+            <h5 class="fw-bold">Dramatically Faster Development</h5>
+            <p class="text-muted mb-0">What would typically require 2–3 days of manual coding was completed in a matter of hours through simple, descriptive prompts.</p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="highlight-card p-4 text-center h-100">
             <i class="bi bi-bug-fill fs-1 text-danger mb-3 d-block"></i>
-            <h5 class="fw-bold">Instant Debugging</h5>
-            <p class="text-muted mb-0">Dark mode broken? Navbar invisible? Git not found? Just describe the problem — Q diagnoses and fixes immediately.</p>
+            <h5 class="fw-bold">Intelligent Debugging</h5>
+            <p class="text-muted mb-0">From a broken dark mode toggle to an invisible navbar — Q accurately diagnosed each issue and applied the correct fix without manual investigation.</p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="highlight-card p-4 text-center h-100">
             <i class="bi bi-tools fs-1 text-info mb-3 d-block"></i>
-            <h5 class="fw-bold">Beyond Just Code</h5>
-            <p class="text-muted mb-0">Q also handled DevOps — finding executables, setting PATH variables, running npm, pushing to GitHub.</p>
+            <h5 class="fw-bold">End-to-End Capability</h5>
+            <p class="text-muted mb-0">Q went beyond writing code — it handled environment configuration, PATH setup, dependency installation, Git initialization, and GitHub deployment.</p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="highlight-card p-4 text-center h-100">
             <i class="bi bi-person-check-fill fs-1 text-success mb-3 d-block"></i>
-            <h5 class="fw-bold">No Expertise Needed</h5>
-            <p class="text-muted mb-0">No memorizing syntax. No Stack Overflow. Just describe what you want in plain English and iterate.</p>
+            <h5 class="fw-bold">Accessible to All Skill Levels</h5>
+            <p class="text-muted mb-0">No syntax memorization. No documentation lookups. Describe the requirement clearly — Q handles the implementation regardless of your technical background.</p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="highlight-card p-4 text-center h-100">
             <i class="bi bi-arrow-repeat fs-1 text-primary mb-3 d-block"></i>
-            <h5 class="fw-bold">Iterative Workflow</h5>
-            <p class="text-muted mb-0">Start simple, keep asking for improvements. Q remembers context and builds on previous changes.</p>
+            <h5 class="fw-bold">Iterative by Design</h5>
+            <p class="text-muted mb-0">Start with a simple request and refine incrementally. Q maintains context across the conversation, building on each previous change with precision.</p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="highlight-card p-4 text-center h-100">
             <i class="bi bi-shield-check fs-1 text-success mb-3 d-block"></i>
-            <h5 class="fw-bold">Best Practices Built In</h5>
-            <p class="text-muted mb-0">Q automatically uses semantic HTML, CSS variables, accessibility attributes, and modern JS patterns.</p>
+            <h5 class="fw-bold">Best Practices by Default</h5>
+            <p class="text-muted mb-0">Q consistently produces semantic HTML, accessible markup, CSS custom properties, responsive layouts, and modern JavaScript patterns without being explicitly prompted to do so.</p>
           </div>
         </div>
       </div>
@@ -782,8 +786,8 @@ document.querySelectorAll(
   <!-- CTA -->
   <section class="section-pad demo-cta text-white text-center">
     <div class="container">
-      <h2 class="display-5 fw-bold mb-3">Try the Live Website</h2>
-      <p class="lead mb-4 mx-auto" style="max-width:520px">Experience all 4 AI tools — Text Analyzer, Color Palette, Password Generator, Text Converter — built entirely with Amazon Q.</p>
+      <h2 class="display-5 fw-bold mb-3">Explore the Live Website</h2>
+      <p class="lead mb-4 mx-auto" style="max-width:520px">Experience all four AI-powered tools — Text Analyzer, Color Palette Generator, Password Generator, and Text Converter — built entirely with Amazon Q Developer.</p>
       <div class="d-flex gap-3 justify-content-center flex-wrap">
         <a href="index.html" target="_blank" class="btn btn-primary btn-lg px-5">Open Live Site <i class="bi bi-arrow-right ms-1"></i></a>
         <a href="https://github.com/poonammore-web/ai_web_dev" target="_blank" class="btn btn-outline-light btn-lg px-5"><i class="bi bi-github me-2"></i>View on GitHub</a>
@@ -793,14 +797,13 @@ document.querySelectorAll(
 
   <!-- Footer -->
   <footer class="demo-footer py-4 text-center">
-    <p class="text-muted mb-0 small">Built with ❤️ using <strong>Amazon Q Developer</strong> · Bootstrap 5.3 · Vanilla JS ES6+ · Git & GitHub &nbsp;|&nbsp;
-      <a href="https://github.com/poonammore-web/ai_web_dev" target="_blank" class="text-muted">GitHub Repo</a>
+    <p class="text-muted mb-0 small">Built with Amazon Q Developer · Bootstrap 5.3 · Vanilla JS ES6+ · Git & GitHub &nbsp;|&nbsp;
+      <a href="https://github.com/poonammore-web/ai_web_dev" target="_blank" class="text-muted">GitHub Repository</a>
     </p>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script>
-    // Theme toggle
     document.getElementById("themeToggle").addEventListener("click", () => {
       const html = document.documentElement;
       const isDark = html.getAttribute("data-bs-theme") === "dark";
@@ -809,7 +812,6 @@ document.querySelectorAll(
       document.getElementById("themeToggle").innerHTML = isDark ? '<i class="bi bi-moon-fill"></i>' : '<i class="bi bi-sun-fill"></i>';
     });
 
-    // Copy code
     function copyCode(btn) {
       const code = btn.closest(".code-card").querySelector("code").textContent;
       navigator.clipboard.writeText(code);
@@ -817,18 +819,13 @@ document.querySelectorAll(
       setTimeout(() => btn.innerHTML = '<i class="bi bi-clipboard"></i>', 2000);
     }
 
-    // Smooth scroll
     document.querySelectorAll('a[href^="#"]').forEach(a => {
       a.addEventListener("click", e => {
         const target = document.querySelector(a.getAttribute("href"));
-        if (target) {
-          e.preventDefault();
-          target.scrollIntoView({ behavior: "smooth", block: "start" });
-        }
+        if (target) { e.preventDefault(); target.scrollIntoView({ behavior: "smooth", block: "start" }); }
       });
     });
 
-    // Fade-up on scroll
     const obs = new IntersectionObserver((entries) => {
       entries.forEach(({ target, isIntersecting }) => {
         if (isIntersecting) { target.classList.add("visible"); obs.unobserve(target); }
