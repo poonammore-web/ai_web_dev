@@ -1,285 +1,107 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>AI Web Dev — Intelligent Web Solutions</title>
+  <title>AI Web Dev</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="src/styles.css" />
 </head>
-
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-      <a class="navbar-brand fw-bold" href="#hero"><i class="bi bi-cpu me-2"></i>AI Web Dev</a>
+      <a class="navbar-brand fw-bold" href="#"><i class="bi bi-cpu me-2"></i>AI Web Dev</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navMenu">
-        <ul class="navbar-nav ms-auto gap-2">
+        <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
-          <li class="nav-item"><a class="nav-link" href="#demo">Live Demo</a></li>
-          <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link" href="#demo">Demo</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-          <li class="nav-item"><a class="btn btn-primary btn-sm px-3" href="#demo">Try it Free</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
   <!-- Hero -->
-  <section id="hero" class="hero-section d-flex align-items-center">
-    <div class="container text-center text-white">
-      <span class="badge bg-primary-soft mb-3 px-3 py-2 fs-6">🚀 Powered by AI</span>
-      <h1 class="display-3 fw-bold mb-4">Build Smarter Websites<br><span class="gradient-text">with Artificial Intelligence</span></h1>
-      <p class="lead mb-5 mx-auto" style="max-width:600px">Harness the power of AI to design, develop, and deploy modern web experiences — faster than ever before.</p>
-      <div class="d-flex gap-3 justify-content-center flex-wrap">
-        <a href="#demo" class="btn btn-primary btn-lg px-5">Try Live Demo</a>
-        <a href="#features" class="btn btn-outline-light btn-lg px-5">Learn More</a>
-      </div>
-      <div class="hero-stats d-flex justify-content-center gap-5 mt-5 flex-wrap">
-        <div><div class="stat-number" data-target="500">0</div><div class="stat-label">Projects Built</div></div>
-        <div><div class="stat-number" data-target="98">0</div><div class="stat-label">% Satisfaction</div></div>
-        <div><div class="stat-number" data-target="50">0</div><div class="stat-label">AI Models</div></div>
-      </div>
+  <section class="hero text-white text-center py-6">
+    <div class="container">
+      <h1 class="display-4 fw-bold mb-3">Build Smarter with <span class="text-primary">AI</span></h1>
+      <p class="lead mb-4 mx-auto" style="max-width:520px">AI-powered tools to design, develop, and launch modern websites faster than ever.</p>
+      <a href="#demo" class="btn btn-primary btn-lg px-5">Try Live Demo</a>
     </div>
   </section>
 
   <!-- Features -->
   <section id="features" class="py-6">
     <div class="container">
-      <div class="text-center mb-5">
-        <span class="section-tag">Features</span>
-        <h2 class="display-5 fw-bold mt-2">Everything You Need</h2>
-        <p class="text-muted lead">AI-powered tools to supercharge your web development workflow.</p>
-      </div>
+      <h2 class="text-center fw-bold mb-5">Features</h2>
       <div class="row g-4">
         <div class="col-md-4">
-          <div class="feature-card h-100 p-4">
-            <div class="feature-icon bg-primary-soft text-primary mb-3"><i class="bi bi-magic"></i></div>
-            <h5 class="fw-bold">AI Code Generation</h5>
-            <p class="text-muted">Generate clean, production-ready HTML, CSS, and JavaScript instantly from plain English descriptions.</p>
+          <div class="feature-card p-4 text-center h-100">
+            <i class="bi bi-magic fs-1 text-primary mb-3 d-block"></i>
+            <h5 class="fw-bold">Code Generation</h5>
+            <p class="text-muted mb-0">Generate clean HTML, CSS & JS from plain English descriptions instantly.</p>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="feature-card h-100 p-4">
-            <div class="feature-icon bg-success-soft text-success mb-3"><i class="bi bi-palette2"></i></div>
-            <h5 class="fw-bold">Smart Design System</h5>
-            <p class="text-muted">AI-driven color palettes, typography, and layout suggestions tailored to your brand identity.</p>
+          <div class="feature-card p-4 text-center h-100">
+            <i class="bi bi-palette2 fs-1 text-success mb-3 d-block"></i>
+            <h5 class="fw-bold">Smart Design</h5>
+            <p class="text-muted mb-0">AI-driven color palettes and layouts tailored to your brand.</p>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="feature-card h-100 p-4">
-            <div class="feature-icon bg-warning-soft text-warning mb-3"><i class="bi bi-graph-up-arrow"></i></div>
-            <h5 class="fw-bold">SEO Optimization</h5>
-            <p class="text-muted">Automatically optimize meta tags, content structure, and performance scores for top search rankings.</p>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="feature-card h-100 p-4">
-            <div class="feature-icon bg-info-soft text-info mb-3"><i class="bi bi-shield-check"></i></div>
-            <h5 class="fw-bold">Security Scanning</h5>
-            <p class="text-muted">Real-time vulnerability detection and automated fixes to keep your web apps safe and compliant.</p>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="feature-card h-100 p-4">
-            <div class="feature-icon bg-danger-soft text-danger mb-3"><i class="bi bi-speedometer2"></i></div>
-            <h5 class="fw-bold">Performance Boost</h5>
-            <p class="text-muted">AI-powered analysis identifies bottlenecks and applies optimizations to achieve blazing-fast load times.</p>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="feature-card h-100 p-4">
-            <div class="feature-icon bg-purple-soft text-purple mb-3"><i class="bi bi-translate"></i></div>
-            <h5 class="fw-bold">Auto Translation</h5>
-            <p class="text-muted">Instantly localize your website into 50+ languages with context-aware AI translation technology.</p>
+          <div class="feature-card p-4 text-center h-100">
+            <i class="bi bi-speedometer2 fs-1 text-warning mb-3 d-block"></i>
+            <h5 class="fw-bold">Performance</h5>
+            <p class="text-muted mb-0">Automatic optimizations for blazing-fast load times and SEO.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Live Demo -->
+  <!-- Demo -->
   <section id="demo" class="py-6 bg-light">
     <div class="container">
-      <div class="text-center mb-5">
-        <span class="section-tag">Interactive</span>
-        <h2 class="display-5 fw-bold mt-2">Live AI Demo</h2>
-        <p class="text-muted lead">Experience the power of AI directly in your browser.</p>
-      </div>
+      <h2 class="text-center fw-bold mb-5">Live Demo</h2>
       <div class="row g-4 justify-content-center">
 
         <!-- Text Analyzer -->
-        <div class="col-lg-6">
+        <div class="col-md-6">
           <div class="demo-card p-4 h-100">
-            <h5 class="fw-bold mb-1"><i class="bi bi-chat-left-text text-primary me-2"></i>Text Analyzer</h5>
-            <p class="text-muted small mb-3">Analyze sentiment, word count, readability & keywords.</p>
-            <textarea id="analyzeInput" class="form-control mb-3" rows="4" placeholder="Type or paste any text here..."></textarea>
-            <button id="analyzeBtn" class="btn btn-primary w-100 mb-3">Analyze Text <i class="bi bi-arrow-right ms-1"></i></button>
+            <h5 class="fw-bold mb-3"><i class="bi bi-chat-left-text text-primary me-2"></i>Text Analyzer</h5>
+            <textarea id="analyzeInput" class="form-control mb-3" rows="3" placeholder="Paste any text here..."></textarea>
+            <button id="analyzeBtn" class="btn btn-primary w-100 mb-3">Analyze</button>
             <div id="analyzeResult" class="d-none">
               <div class="row g-2 text-center mb-3">
-                <div class="col-3"><div class="stat-box"><div id="wordCount" class="stat-val">0</div><div class="stat-lbl">Words</div></div></div>
-                <div class="col-3"><div class="stat-box"><div id="charCount" class="stat-val">0</div><div class="stat-lbl">Chars</div></div></div>
-                <div class="col-3"><div class="stat-box"><div id="sentenceCount" class="stat-val">0</div><div class="stat-lbl">Sentences</div></div></div>
-                <div class="col-3"><div class="stat-box"><div id="readScore" class="stat-val">0</div><div class="stat-lbl">Readability</div></div></div>
+                <div class="col-4"><div class="stat-box"><div id="wordCount" class="stat-val">0</div><small>Words</small></div></div>
+                <div class="col-4"><div class="stat-box"><div id="charCount" class="stat-val">0</div><small>Chars</small></div></div>
+                <div class="col-4"><div class="stat-box"><div id="sentiment" class="stat-val">-</div><small>Sentiment</small></div></div>
               </div>
-              <div class="mb-2"><strong>Sentiment:</strong> <span id="sentiment" class="badge ms-1"></span></div>
-              <div><strong>Top Keywords:</strong> <span id="keywords"></span></div>
+              <div><strong>Keywords:</strong> <span id="keywords"></span></div>
             </div>
           </div>
         </div>
 
-        <!-- Color Palette Generator -->
-        <div class="col-lg-6">
+        <!-- Color Palette -->
+        <div class="col-md-6">
           <div class="demo-card p-4 h-100">
-            <h5 class="fw-bold mb-1"><i class="bi bi-palette text-success me-2"></i>AI Color Palette</h5>
-            <p class="text-muted small mb-3">Generate beautiful color palettes from a keyword or mood.</p>
-            <input id="paletteInput" type="text" class="form-control mb-3" placeholder="e.g. ocean, forest, sunset, minimal..." />
-            <button id="paletteBtn" class="btn btn-success w-100 mb-3">Generate Palette <i class="bi bi-stars ms-1"></i></button>
+            <h5 class="fw-bold mb-3"><i class="bi bi-palette text-success me-2"></i>Color Palette Generator</h5>
+            <input id="paletteInput" type="text" class="form-control mb-3" placeholder="e.g. ocean, forest, sunset..." />
+            <button id="paletteBtn" class="btn btn-success w-100 mb-3">Generate Palette</button>
             <div id="paletteResult" class="d-none">
-              <div id="colorSwatches" class="d-flex gap-2 mb-3 flex-wrap"></div>
+              <div id="colorSwatches" class="d-flex gap-2 flex-wrap mb-2"></div>
               <div id="colorCodes" class="d-flex gap-2 flex-wrap"></div>
             </div>
           </div>
         </div>
 
-        <!-- Code Generator -->
-        <div class="col-lg-12">
-          <div class="demo-card p-4">
-            <h5 class="fw-bold mb-1"><i class="bi bi-code-slash text-warning me-2"></i>AI Component Generator</h5>
-            <p class="text-muted small mb-3">Describe a UI component and get Bootstrap HTML instantly.</p>
-            <div class="row g-3 align-items-end">
-              <div class="col-md-8">
-                <select id="componentSelect" class="form-select">
-                  <option value="">Choose a component to generate...</option>
-                  <option value="card">Profile Card</option>
-                  <option value="form">Contact Form</option>
-                  <option value="alert">Alert Banner</option>
-                  <option value="table">Data Table</option>
-                  <option value="modal">Modal Dialog</option>
-                </select>
-              </div>
-              <div class="col-md-4">
-                <button id="generateBtn" class="btn btn-warning w-100">Generate <i class="bi bi-lightning ms-1"></i></button>
-              </div>
-            </div>
-            <div id="codeOutput" class="mt-3 d-none">
-              <div class="d-flex justify-content-between align-items-center mb-2">
-                <small class="text-muted fw-bold">Generated Code</small>
-                <button id="copyBtn" class="btn btn-sm btn-outline-secondary"><i class="bi bi-clipboard me-1"></i>Copy</button>
-              </div>
-              <pre id="codeBlock" class="code-block p-3 rounded"></pre>
-              <div class="mt-3 p-3 border rounded bg-white" id="codePreview"></div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- Pricing -->
-  <section id="pricing" class="py-6">
-    <div class="container">
-      <div class="text-center mb-5">
-        <span class="section-tag">Pricing</span>
-        <h2 class="display-5 fw-bold mt-2">Simple, Transparent Pricing</h2>
-        <p class="text-muted lead">Choose the plan that fits your needs.</p>
-      </div>
-      <div class="row g-4 justify-content-center">
-        <div class="col-md-4">
-          <div class="pricing-card p-4 h-100 text-center">
-            <div class="pricing-icon mb-3"><i class="bi bi-rocket"></i></div>
-            <h5 class="fw-bold">Starter</h5>
-            <div class="pricing-price my-3">$0<span>/mo</span></div>
-            <ul class="pricing-features list-unstyled text-start mb-4">
-              <li><i class="bi bi-check-circle-fill text-success me-2"></i>5 AI Generations/day</li>
-              <li><i class="bi bi-check-circle-fill text-success me-2"></i>Basic Templates</li>
-              <li><i class="bi bi-check-circle-fill text-success me-2"></i>Text Analyzer</li>
-              <li><i class="bi bi-x-circle-fill text-muted me-2"></i>Custom Branding</li>
-              <li><i class="bi bi-x-circle-fill text-muted me-2"></i>Priority Support</li>
-            </ul>
-            <a href="#contact" class="btn btn-outline-primary w-100">Get Started</a>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="pricing-card pricing-popular p-4 h-100 text-center">
-            <span class="badge bg-primary mb-2">Most Popular</span>
-            <div class="pricing-icon mb-3"><i class="bi bi-stars"></i></div>
-            <h5 class="fw-bold">Pro</h5>
-            <div class="pricing-price my-3">$29<span>/mo</span></div>
-            <ul class="pricing-features list-unstyled text-start mb-4">
-              <li><i class="bi bi-check-circle-fill text-success me-2"></i>Unlimited Generations</li>
-              <li><i class="bi bi-check-circle-fill text-success me-2"></i>All Templates</li>
-              <li><i class="bi bi-check-circle-fill text-success me-2"></i>All AI Tools</li>
-              <li><i class="bi bi-check-circle-fill text-success me-2"></i>Custom Branding</li>
-              <li><i class="bi bi-x-circle-fill text-muted me-2"></i>Priority Support</li>
-            </ul>
-            <a href="#contact" class="btn btn-primary w-100">Start Free Trial</a>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="pricing-card p-4 h-100 text-center">
-            <div class="pricing-icon mb-3"><i class="bi bi-building"></i></div>
-            <h5 class="fw-bold">Enterprise</h5>
-            <div class="pricing-price my-3">$99<span>/mo</span></div>
-            <ul class="pricing-features list-unstyled text-start mb-4">
-              <li><i class="bi bi-check-circle-fill text-success me-2"></i>Unlimited Everything</li>
-              <li><i class="bi bi-check-circle-fill text-success me-2"></i>Custom AI Models</li>
-              <li><i class="bi bi-check-circle-fill text-success me-2"></i>API Access</li>
-              <li><i class="bi bi-check-circle-fill text-success me-2"></i>Custom Branding</li>
-              <li><i class="bi bi-check-circle-fill text-success me-2"></i>Priority Support</li>
-            </ul>
-            <a href="#contact" class="btn btn-outline-primary w-100">Contact Sales</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Testimonials -->
-  <section id="testimonials" class="py-6 bg-light">
-    <div class="container">
-      <div class="text-center mb-5">
-        <span class="section-tag">Testimonials</span>
-        <h2 class="display-5 fw-bold mt-2">What People Are Saying</h2>
-      </div>
-      <div class="row g-4">
-        <div class="col-md-4">
-          <div class="testimonial-card p-4">
-            <div class="stars mb-2">★★★★★</div>
-            <p class="mb-3">"AI Web Dev cut our development time in half. The code generator alone saves us hours every week."</p>
-            <div class="d-flex align-items-center gap-3">
-              <div class="avatar bg-primary">JD</div>
-              <div><strong>Jane Doe</strong><br><small class="text-muted">Frontend Lead @ TechCorp</small></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="testimonial-card p-4">
-            <div class="stars mb-2">★★★★★</div>
-            <p class="mb-3">"The AI color palette tool is incredible. Every design I create with it looks professional instantly."</p>
-            <div class="d-flex align-items-center gap-3">
-              <div class="avatar bg-success">MS</div>
-              <div><strong>Mark Smith</strong><br><small class="text-muted">UI Designer @ Creative Studio</small></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="testimonial-card p-4">
-            <div class="stars mb-2">★★★★★</div>
-            <p class="mb-3">"Best investment for our startup. We launched our entire website in a weekend using AI Web Dev."</p>
-            <div class="d-flex align-items-center gap-3">
-              <div class="avatar bg-warning">AL</div>
-              <div><strong>Amy Lee</strong><br><small class="text-muted">Co-Founder @ LaunchFast</small></div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </section>
@@ -288,51 +110,25 @@
   <section id="contact" class="py-6">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-lg-7 text-center mb-5">
-          <span class="section-tag">Contact</span>
-          <h2 class="display-5 fw-bold mt-2">Get In Touch</h2>
-          <p class="text-muted lead">Have questions? We'd love to hear from you.</p>
-        </div>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-lg-7">
-          <div class="contact-card p-5">
-            <form id="contactForm" novalidate>
-              <div class="row g-3">
-                <div class="col-md-6">
-                  <label class="form-label fw-semibold">Full Name</label>
-                  <input type="text" class="form-control" id="contactName" placeholder="John Doe" required />
-                  <div class="invalid-feedback">Please enter your name.</div>
-                </div>
-                <div class="col-md-6">
-                  <label class="form-label fw-semibold">Email Address</label>
-                  <input type="email" class="form-control" id="contactEmail" placeholder="john@example.com" required />
-                  <div class="invalid-feedback">Please enter a valid email.</div>
-                </div>
-                <div class="col-12">
-                  <label class="form-label fw-semibold">Subject</label>
-                  <select class="form-select" id="contactSubject" required>
-                    <option value="">Select a subject...</option>
-                    <option>General Inquiry</option>
-                    <option>Sales & Pricing</option>
-                    <option>Technical Support</option>
-                    <option>Partnership</option>
-                  </select>
-                  <div class="invalid-feedback">Please select a subject.</div>
-                </div>
-                <div class="col-12">
-                  <label class="form-label fw-semibold">Message</label>
-                  <textarea class="form-control" id="contactMessage" rows="4" placeholder="Tell us how we can help..." required></textarea>
-                  <div class="invalid-feedback">Please enter your message.</div>
-                </div>
-                <div class="col-12">
-                  <button type="submit" class="btn btn-primary btn-lg w-100">Send Message <i class="bi bi-send ms-2"></i></button>
-                </div>
-              </div>
-            </form>
-            <div id="formSuccess" class="alert alert-success mt-3 d-none">
-              <i class="bi bi-check-circle me-2"></i>Thanks! We'll get back to you within 24 hours.
+        <div class="col-md-6">
+          <h2 class="text-center fw-bold mb-5">Contact Us</h2>
+          <form id="contactForm" novalidate>
+            <div class="mb-3">
+              <input type="text" class="form-control" id="contactName" placeholder="Your Name" required />
+              <div class="invalid-feedback">Please enter your name.</div>
             </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" id="contactEmail" placeholder="Your Email" required />
+              <div class="invalid-feedback">Please enter a valid email.</div>
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control" id="contactMessage" rows="4" placeholder="Your Message" required></textarea>
+              <div class="invalid-feedback">Please enter a message.</div>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Send Message</button>
+          </form>
+          <div id="formSuccess" class="alert alert-success mt-3 d-none">
+            <i class="bi bi-check-circle me-2"></i>Message sent! We'll get back to you soon.
           </div>
         </div>
       </div>
@@ -340,46 +136,9 @@
   </section>
 
   <!-- Footer -->
-  <footer class="footer py-5">
+  <footer class="bg-dark text-muted text-center py-4">
     <div class="container">
-      <div class="row g-4">
-        <div class="col-md-4">
-          <h5 class="fw-bold text-white mb-3"><i class="bi bi-cpu me-2"></i>AI Web Dev</h5>
-          <p class="text-muted">Building the future of web development with artificial intelligence.</p>
-          <div class="d-flex gap-3 mt-3">
-            <a href="#" class="social-link"><i class="bi bi-twitter-x"></i></a>
-            <a href="#" class="social-link"><i class="bi bi-github"></i></a>
-            <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
-          </div>
-        </div>
-        <div class="col-md-2">
-          <h6 class="text-white fw-bold mb-3">Product</h6>
-          <ul class="list-unstyled footer-links">
-            <li><a href="#features">Features</a></li>
-            <li><a href="#demo">Demo</a></li>
-            <li><a href="#pricing">Pricing</a></li>
-          </ul>
-        </div>
-        <div class="col-md-2">
-          <h6 class="text-white fw-bold mb-3">Company</h6>
-          <ul class="list-unstyled footer-links">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <h6 class="text-white fw-bold mb-3">Newsletter</h6>
-          <p class="text-muted small">Stay updated with our latest AI tools.</p>
-          <div class="input-group">
-            <input type="email" class="form-control" placeholder="your@email.com" id="newsletterEmail" />
-            <button class="btn btn-primary" id="newsletterBtn">Subscribe</button>
-          </div>
-          <div id="newsletterMsg" class="small mt-2 text-success d-none">✓ Subscribed successfully!</div>
-        </div>
-      </div>
-      <hr class="border-secondary mt-4" />
-      <div class="text-center text-muted small">© 2025 AI Web Dev. All rights reserved.</div>
+      <p class="mb-0">© 2025 AI Web Dev. All rights reserved.</p>
     </div>
   </footer>
 
