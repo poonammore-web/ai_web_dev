@@ -34,13 +34,18 @@ body {
 
 /* Navbar */
 #mainNav {
-  background: rgba(15,23,42,0.97) !important;
+  background: #0f172a !important;
   backdrop-filter: blur(12px);
   padding: 0.75rem 0;
   transition: padding 0.3s;
 }
 #mainNav.scrolled { padding: 0.4rem 0; box-shadow: 0 2px 20px rgba(0,0,0,0.3); }
-#mainNav .navbar-brand { font-size: 1.3rem; letter-spacing: -0.3px; }
+#mainNav .navbar-brand { font-size: 1.3rem; letter-spacing: -0.3px; color: #fff !important; }
+#mainNav .nav-link { color: rgba(255,255,255,0.8) !important; }
+#mainNav .nav-link:hover { color: #fff !important; }
+#mainNav .navbar-toggler { border-color: rgba(255,255,255,0.3); }
+#mainNav .navbar-toggler-icon { filter: invert(1); }
+[data-bs-theme="dark"] #mainNav { background: #020817 !important; }
 
 /* Hero */
 .hero {
